@@ -1,0 +1,402 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/cover/images/right-side.png
+    - assets/cover/images/icon-magnifyingglass.png
+    - assets/ios/images/rectangle-1.png
+    - assets/ios/images/indicator.png
+    - assets/cover/images/auto-group-xtqb.png
+    - assets/prototype/images/icon-mobile-signal.png
+    - assets/ios/images/wifi.png
+    - assets/ios/images/auto-group-smvx.png
+    - assets/cover/images/assets-twitter-logo-symbol.png
+    - assets/prototype/images/icon-mobile-signal-bEn.png
+    - assets/cover/images/union.png
+    - assets/prototype/images/indicator-bNE.png
+    - assets/prototype/images/rectangle-1-JEa.png
+    - assets/cover/images/moon-cloud-mid-rain-bg.png
+    - assets/prototype/images/humidity.png
+    - assets/cover/images/moon-cloud-mid-rain-AgN.png
+    - assets/cover/images/ellipse-2-V6E.png
+    - assets/ios/images/rectangle-364.png
+    - assets/prototype/images/wifi-FYa.png
+    - assets/ios/images/moon-cloud-fast-wind.png
+    - assets/ios/images/battery.png
+    - assets/ios/images/rectangle-1-acN.png
+    - assets/ios/images/subtract.png
+    - assets/cover/images/auto-group-x42h.png
+    - assets/prototype/images/moon-cloud-mid-rain.png
+    - assets/prototype/images/subtract-YGv.png
+    - assets/ios/images/wifi-pva.png
+    - assets/prototype/images/rectangle-364-C5C.png
+    - assets/ios/images/sun-cloud-mid-rain.png
+    - assets/ios/images/sun-cloud-mid-rain-qjc.png
+    - assets/ios/images/moon-cloud-mid-rain-ETQ.png
+    - assets/cover/images/ellipse-2.png
+    - assets/prototype/images/battery-aSa.png
+    - assets/prototype/images/auto-group-vbtj.png
+    - assets/ios/images/rectangle-1-sCA.png
+    - assets/ios/images/sun-cloud-angled-rain-ava.png
+    - assets/ios/images/battery-ikn.png
+    - assets/ios/images/icon-magnifyingglass-NMt.png
+    - assets/ios/images/rectangle-1-Nhk.png
+    - assets/prototype/images/icon-magnifyingglass-MBc.png
+    - assets/prototype/images/wifi-Un2.png
+    - assets/prototype/images/home-indicator.png
+    - assets/ios/images/moon-cloud-mid-rain-x8N.png
+    - assets/prototype/images/rectangle-1-4Nz.png
+    - assets/ios/images/icon-mobile-signal-Zae.png
+    - assets/ios/images/moon-cloud-mid-rain-Jo8.png
+    - assets/ios/images/moon-cloud-mid-rain-4nJ.png
+    - assets/ios/images/moon-cloud-mid-rain-1xS.png
+    - assets/ios/images/moon-cloud-mid-rain-83Q.png
+    - assets/prototype/images/home-indicator-9ze.png
+    - assets/prototype/images/sun-cloud-mid-rain-HLA.png
+    - assets/prototype/images/battery-dup.png
+    - assets/ios/images/moon-cloud-mid-rain-ZYa.png
+    - assets/cover/images/sun-cloud-angled-rain-mga.png
+    - assets/ios/images/sun-cloud-mid-rain-r38.png
+    - assets/ios/images/sun-cloud-mid-rain-Xf4.png
+    - assets/cover/images/rectangle-1-MFc.png
+    - assets/ios/images/moon-cloud-mid-rain-ZBk.png
+    - assets/cover/images/moon-cloud-mid-rain-F4a.png
+    - assets/prototype/images/sunrise.png
+    - assets/ios/images/icon-mobile-signal-JJA.png
+    - assets/cover/images/rectangle-3.png
+    - assets/prototype/images/moon-cloud-fast-wind-Tg2.png
+    - assets/prototype/images/pressure.png
+    - assets/prototype/images/rectangle-1-iYW.png
+    - assets/prototype/images/moon-cloud-mid-rain-6L6.png
+    - assets/prototype/images/sun-cloud-angled-rain-JN2.png
+    - assets/prototype/images/sun-cloud-mid-rain-Hy8.png
+    - assets/prototype/images/rectangle-1-cJa.png
+    - assets/prototype/images/sun-cloud-mid-rain-Xrn.png
+    - assets/prototype/images/auto-group-n4q5.png
+    - assets/cover/images/moon-cloud-mid-rain-ipn.png
+    - assets/cover/images/moon-cloud-fast-wind-gFp.png
+    - assets/cover/images/moon-cloud-mid-rain-Eo8.png
+    - assets/cover/images/moon-cloud-mid-rain-obL.png
+    - assets/ios/images/sun-cloud-angled-rain.png
+    - assets/ios/images/tornado.png
+    - assets/prototype/images/moon-cloud-mid-rain-z4E.png
+    - assets/prototype/images/rectangle-1-fD8.png
+    - assets/cover/images/rectangle-363.png
+    - assets/cover/images/rectangle-4.png
+    - assets/cover/images/ellipse-1.png
+    - assets/cover/images/rectangle-365.png
+    - assets/cover/images/rectangle-1-9VY.png
+    - assets/prototype/images/rectangle-1-V4r.png
+    - assets/cover/images/ellipse-3.png
+    - assets/cover/images/rectangle-364-eNz.png
+    - assets/ios/images/rectangle-1-fqY.png
+    - assets/ios/images/moon-cloud-mid-rain-mta.png
+    - assets/cover/images/ellipse-1-8bx.png
+    - assets/cover/images/moon-cloud-fast-wind-frn.png
+    - assets/ios/images/moon-cloud-fast-wind-pza.png
+    - assets/ios/images/rectangle-1-tK8.png
+    - assets/prototype/images/wind.png
+    - assets/ios/images/auto-group-bpxf.png
+    - assets/cover/images/border.png
+    - assets/cover/images/ellipse-2-6fp.png
+    - assets/prototype/images/uv-index.png
+    - assets/cover/images/ellipse-1-PwC.png
+    - assets/prototype/images/tornado-UYe.png
+    - assets/prototype/images/moon-cloud-mid-rain-kxW.png
+    - assets/ios/images/sun-cloud-angled-rain-FPU.png
+    - assets/prototype/images/moon-cloud-mid-rain-X8r.png
+    - assets/ios/images/sun-cloud-angled-rain-VfL.png
+    - assets/prototype/images/widgets.png
+    - assets/ios/images/sun-cloud-mid-rain-jpa.png
+    - assets/prototype/images/moon-cloud-mid-rain-EWi.png
+    - assets/ios/images/house-bg.png
+    - assets/cover/images/rectangle-362.png
+    - assets/cover/images/house-4-3.png
+    - assets/cover/images/photo-1436891620584-47fd0e565afb-1.png
+    - assets/ios/images/photo-1436891620584-47fd0e565afb-1-Yjg.png
+    - assets/prototype/images/photo-1436891620584-47fd0e565afb-1-pRk.png
+    - assets/prototype/images/moon-cloud-mid-rain-LwQ.png
+    - assets/prototype/images/rainfall.png
+    - assets/prototype/images/sun-cloud-angled-rain-kEA.png
+    - assets/prototype/images/sun-cloud-angled-rain-oT4.png
+    - assets/ios/images/background.png
+    - assets/cover/images/background-UAa.png
+    - assets/prototype/images/house-4-3-QJr.png
+    - assets/prototype/images/moon-cloud-mid-rain-j6E.png
+    - assets/prototype/images/feels-like.png
+    - assets/prototype/images/sun-cloud-mid-rain-GQW.png
+    - assets/prototype/images/moon-cloud-fast-wind-D9x.png
+    - assets/prototype/images/moon-cloud-mid-rain-v2i.png
+    - assets/prototype/images/sun-cloud-angled-rain-3YS.png
+    - assets/prototype/images/sun-cloud-mid-rain-mX4.png
+    - assets/prototype/images/visibility.png
+    - assets/prototype/images/auto-group-9qrb.png
+    - assets/prototype/images/screen-shot-2022-04-26-at-1135-1.png
+    - assets/components/images/moon-cloud-fast-wind-Jcn.png
+    - assets/components/images/tornado-psG.png
+    - assets/components/images/sun-cloud-angled-rain-BWN.png
+    - assets/components/images/tornado-AQE.png
+    - assets/components/images/sun-cloud-angled-rain-w2e.png
+    - assets/components/images/moon-cloud-mid-rain-jdx.png
+    - assets/components/images/moon-cloud-fast-wind-DjC.png
+    - assets/components/images/sun-cloud-mid-rain-F9Q.png
+    - assets/components/images/moon-cloud-mid-rain-SQ6.png
+    - assets/components/images/sun-cloud-mid-rain-LeJ.png
+    - assets/components/images/moon-cloud-mid-rain-y8r.png
+    - assets/components/images/moon-cloud-mid-rain-Fgr.png
+    - assets/components/images/moon-cloud-mid-rain-8tN.png
+    - assets/components/images/moon-cloud-mid-rain-y7C.png
+    - assets/components/images/moon-cloud-fast-wind-iGN.png
+    - assets/components/images/moon-cloud-mid-rain-KFU.png
+    - assets/components/images/moon-cloud-mid-rain-8Z4.png
+    - assets/components/images/moon-cloud-fast-wind-wdp.png
+    - assets/components/images/moon-cloud-mid-rain-JKQ.png
+    - assets/components/images/moon-cloud-mid-rain-DTL.png
+    - assets/components/images/moon-cloud-mid-rain-h3t.png
+    - assets/components/images/moon-cloud-mid-rain-P26.png
+    - assets/components/images/moon-cloud-mid-rain-GH4.png
+    - assets/components/images/moon-cloud-mid-rain-cj8.png
+    - assets/components/images/moon-cloud-mid-rain-LPg.png
+    - assets/components/images/moon-cloud-mid-rain-PsL.png
+    - assets/components/images/moon-cloud-mid-rain-piS.png
+    - assets/components/images/wifi-Ff4.png
+    - assets/components/images/icon-mobile-signal-cBg.png
+    - assets/components/images/auto-group-wvsh.png
+    - assets/components/images/icon-mobile-signal-ckW.png
+    - assets/components/images/rectangle-364-Yni.png
+    - assets/components/images/icon-magnifyingglass-33c.png
+    - assets/components/images/wifi-xaA.png
+    - assets/components/images/subtract-Khg.png
+    - assets/components/images/wifi-5fc.png
+    - assets/components/images/icon-magnifyingglass-9BC.png
+    - assets/components/images/icon-mobile-signal-qca.png
+    - assets/components/images/battery-i2A.png
+    - assets/components/images/battery-QDt.png
+    - assets/components/images/battery-FDp.png
+    - assets/components/images/house-4-3-XAE.png
+    - assets/components/images/photo-1436891620584-47fd0e565afb-1-oRG.png
+    - assets/components/images/rectangle-1-jvv.png
+    - assets/components/images/rectangle-1-646.png
+    - assets/components/images/rectangle-1-zDL.png
+    - assets/components/images/rectangle-1-jSe.png
+    - assets/components/images/rectangle-1-CpN.png
+    - assets/components/images/moon-cloud-fast-wind-Poc.png
+    - assets/components/images/moon-cloud-fast-wind-tpN.png
+    - assets/components/images/rectangle-1-eQe.png
+    - assets/components/images/moon-cloud-mid-rain-tVL.png
+    - assets/components/images/tornado-HWW.png
+    - assets/components/images/moon-cloud-fast-wind-bGS.png
+    - assets/components/images/sun-cloud-angled-rain-Y8N.png
+    - assets/components/images/humidity-gKY.png
+    - assets/components/images/moon-cloud-mid-rain-BFU.png
+    - assets/components/images/uv-index-S2S.png
+    - assets/components/images/wind-Xy8.png
+    - assets/components/images/visibility-Zfk.png
+    - assets/components/images/pressure-Ri6.png
+    - assets/components/images/sunrise-9qg.png
+    - assets/components/images/feels-like-Su4.png
+    - assets/components/images/indicator-xhC.png
+    - assets/components/images/widgets-2SA.png
+    - assets/components/images/rainfall-Mga.png
+    - assets/components/images/sun-cloud-angled-rain-nFY.png
+    - assets/components/images/auto-group-pzav.png
+    - assets/components/images/indicator-3qY.png
+    - assets/components/images/auto-group-ysyf.png
+    - assets/components/images/sun-cloud-mid-rain-bKU.png
+    - assets/components/images/sun-cloud-mid-rain-HXU.png
+    - assets/components/images/moon-cloud-mid-rain-AMc.png
+    - assets/components/images/moon-cloud-mid-rain-WKp.png
+    - assets/components/images/sun-cloud-mid-rain-zkv.png
+    - assets/components/images/sun-cloud-mid-rain-JBQ.png
+    - assets/components/images/sun-cloud-mid-rain-JfQ.png
+    - assets/components/images/moon-cloud-mid-rain-Wra.png
+    - assets/components/images/sun-cloud-angled-rain-5Dp.png
+    - assets/components/images/sun-cloud-mid-rain-9ka.png
+    - assets/components/images/moon-cloud-fast-wind-Rvn.png
+    - assets/components/images/moon-cloud-fast-wind-WKp.png
+    - assets/components/images/sun-cloud-angled-rain-Crr.png
+    - assets/components/images/sun-cloud-mid-rain-ZwL.png
+    - assets/components/images/moon-cloud-mid-rain-AY6.png
+    - assets/components/images/moon-cloud-mid-rain-U1t.png
+    - assets/components/images/moon-cloud-mid-rain-BMY.png
+    - assets/components/images/moon-cloud-mid-rain-dS6.png
+    - assets/components/images/moon-cloud-mid-rain-iir.png
+    - assets/components/images/moon-cloud-mid-rain-t1L.png
+    - assets/components/images/sun-cloud-angled-rain-BDQ.png
+    - assets/components/images/sun-cloud-angled-rain-Uzz.png
+    - assets/components/images/sun-cloud-mid-rain-orn.png
+    - assets/components/images/moon-cloud-mid-rain-Dsc.png
+    - assets/components/images/moon-cloud-mid-rain-sDg.png
+    - assets/components/images/moon-cloud-mid-rain-4TY.png
+    - assets/components/images/moon-cloud-mid-rain-4Q6.png
+    - assets/components/images/moon-cloud-mid-rain-fti.png
+    - assets/components/images/sun-cloud-angled-rain-ViN.png
+    - assets/components/images/wifi-sgJ.png
+    - assets/components/images/icon-mobile-signal-gnS.png
+    - assets/components/images/auto-group-guaq.png
+    - assets/components/images/auto-group-htp7.png
+    - assets/components/images/icon-mobile-signal-31p.png
+    - assets/components/images/auto-group-dbxj.png
+    - assets/components/images/home-indicator-GJi.png
+    - assets/components/images/home-indicator-c3Y.png
+    - assets/components/images/indicator-o4i.png
+    - assets/components/images/subtract-ss4.png
+    - assets/components/images/home-indicator-8Wa.png
+    - assets/components/images/wifi-Y86.png
+    - assets/components/images/auto-group-cwkt.png
+    - assets/components/images/battery-AtW.png
+    - assets/components/images/battery-Vyg.png
+    - assets/components/images/rectangle-364-Xki.png
+    - assets/components/images/subtract-XKt.png
+    - assets/components/images/rectangle-364-goQ.png
+    - assets/components/images/photo-1436891620584-47fd0e565afb-1-duQ.png
+    - assets/components/images/sun-cloud-mid-rain-MsU.png
+    - assets/components/images/feels-like-K6v.png
+    - assets/components/images/uv-index-2Y6.png
+    - assets/components/images/sun-cloud-mid-rain-Frn.png
+    - assets/components/images/sunrise-kKY.png
+    - assets/components/images/sun-cloud-angled-rain-C8n.png
+    - assets/components/images/sun-cloud-angled-rain-CVt.png
+    - assets/components/images/wind-AVU.png
+    - assets/components/images/sun-cloud-angled-rain-KCr.png
+    - assets/components/images/sun-cloud-mid-rain-LoQ.png
+    - assets/components/images/sunrise-BEe.png
+    - assets/components/images/visibility-8QE.png
+    - assets/components/images/pressure-zJA.png
+    - assets/components/images/moon-cloud-mid-rain-Z34.png
+    - assets/components/images/widgets-QJa.png
+    - assets/components/images/rainfall-UdU.png
+    - assets/components/images/moon-cloud-fast-wind-ynn.png
+    - assets/components/images/moon-cloud-mid-rain-AAS.png
+    - assets/components/images/moon-cloud-mid-rain-CMk.png
+    - assets/components/images/moon-cloud-mid-rain-btJ.png
+    - assets/components/images/moon-cloud-mid-rain-G2i.png
+    - assets/components/images/moon-cloud-mid-rain-KfL.png
+    - assets/components/images/sun-cloud-angled-rain-Dtz.png
+    - assets/components/images/moon-cloud-mid-rain-wfL.png
+    - assets/components/images/sun-cloud-mid-rain-RJW.png
+    - assets/components/images/sun-cloud-angled-rain-Rev.png
+    - assets/components/images/sun-cloud-angled-rain-Vx2.png
+    - assets/components/images/house-4-3-fn6.png
+    - assets/components/images/sun-cloud-mid-rain-JDC.png
+    - assets/components/images/sun-cloud-mid-rain-AiA.png
+    - assets/components/images/house-bg-mXC.png
+    - assets/components/images/moon-cloud-fast-wind-fMx.png
+    - assets/components/images/moon-cloud-mid-rain-rCN.png
+    - assets/components/images/moon-cloud-mid-rain-hBU.png
+    - assets/components/images/sun-cloud-mid-rain-vEJ.png
+    - assets/components/images/uv-index-rfg.png
+    - assets/components/images/pressure-R8i.png
+    - assets/components/images/sun-cloud-mid-rain-EGN.png
+    - assets/components/images/humidity-ZF4.png
+    - assets/components/images/moon-cloud-mid-rain-JTG.png
+    - assets/components/images/feels-like-9Xk.png
+    - assets/components/images/wind-z9L.png
+    - assets/components/images/rainfall-v2z.png
+    - assets/components/images/moon-cloud-mid-rain-xhc.png
+    - assets/components/images/visibility-dGA.png
+    - assets/components/images/moon-cloud-mid-rain-SFG.png
+    - assets/components/images/moon-cloud-mid-rain-31Q.png
+    - assets/components/images/widgets-r14.png
+    - assets/components/images/humidity-HfC.png
+    - assets/components/images/photo-1436891620584-47fd0e565afb-1-eaa.png
+    - assets/components/images/auto-group-3zhj.png
+    - assets/components/images/auto-group-grvx.png
+    - assets/thank-you/images/logo-figma.png
+    - assets/thank-you/images/logo.png
+    - assets/thank-you/images/assets-youtube-images-avator.png
+    - assets/thank-you/images/oval.png
+    - assets/thank-you/images/oval-7wL.png
+    - assets/thank-you/images/rectangle-365-CEA.png
+    - assets/thank-you/images/aki-1.png
+    - assets/thank-you/images/rectangle-366.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
